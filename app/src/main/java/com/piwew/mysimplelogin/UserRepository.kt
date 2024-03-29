@@ -12,14 +12,4 @@ class UserRepository(private val session: SessionManager) {
     fun isUserLogin() = session.isLogin
 
     fun logoutUser() = session.logout()
-
-    companion object {
-        @Volatile
-        private var instance: UserRepository? = null
-
-        fun getInstance(session: SessionManager): UserRepository =
-            instance ?: synchronized(this) {
-                instance ?: UserRepository(session)
-            }
-    }
 }
