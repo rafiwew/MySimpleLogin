@@ -1,4 +1,4 @@
-package com.piwew.mysimplelogin
+package com.piwew.core
 
 import android.content.Context
 import android.content.SharedPreferences

@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "MySimpleLogin"
 include(":app")
+include(":core")

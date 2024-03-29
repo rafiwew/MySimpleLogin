@@ -3,6 +3,8 @@ package com.piwew.mysimplelogin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.piwew.core.SessionManager
+import com.piwew.core.UserRepository
 import com.piwew.mysimplelogin.databinding.ActivityHomeBinding
 
 class HomeActivity : AppCompatActivity() {

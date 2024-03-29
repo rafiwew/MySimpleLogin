@@ -1,4 +1,4 @@
-package com.piwew.mysimplelogin
+package com.piwew.core
 
 class UserRepository(private val session: SessionManager) {
 
